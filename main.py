@@ -1422,7 +1422,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"<blockquote>📚𝐓𝐢𝐭𝐥𝐞 » {name}</blockquote>\n┃\n" \
                            f"┣🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
                            f'┣━🔗𝐋𝐢𝐧𝐤 🌚🌝\n┃\n' \
-                           f'╰━━🖇️𝐔𝐫𝐥 »  URL\n'
+                           f'╰━━🖇️𝐔𝐫𝐥 »  URL\n' \
                            f"━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
                            f"╰━✦⚝ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ⚝ {CREDIT}"
