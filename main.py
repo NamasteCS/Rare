@@ -1176,14 +1176,14 @@ async def txt_handler(bot: Client, m: Message):
 
             elif "https://cpvod.testbook.com/" in url or "classplusapp.com/drm/" in url:
                 url = url.replace("https://cpvod.testbook.com/","https://media-cdn.classplusapp.com/drm/")
-                url = f"https://cpapi-ytas.onrender.com/extract_keys?url={url}@bots_updatee&user_id={7735386939}"
+                url = f"https://cpatbots-updatee.onrender.com/extract_keys?url=%7Burl%7D@bots_updatee&user_id=%7B7735386939%7D"
              #   url = f"https://scammer-keys.vercel.app/api?url={url}&token={cptoken}&auth=@scammer_botxz1"
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
 
             elif "classplusapp" in url:
-                signed_api = f"https://cpapi-ytas.onrender.com/extract_keys?url={url}@bots_updatee&user_id={7735386939}"
+                signed_api = f"https://cpatbots-updatee.onrender.com/extract_keys?url=%7Burl%7D@bots_updatee&user_id=%7B7735386939%7D"
                 response = requests.get(signed_api, timeout=20)
                # url = response.text.strip()
                 url = response.json()['url']  
@@ -1569,7 +1569,7 @@ async def text_handler(bot: Client, m: Message):
 
             elif "https://cpvod.testbook.com/" in url or "classplusapp.com/drm/" in url:
                 url = url.replace("https://cpvod.testbook.com/","https://media-cdn.classplusapp.com/drm/")
-                url = f"https://cpapi-ytas.onrender.com/extract_keys?url={url}@bots_updatee&user_id={7735386939}"
+                url = f"https://cpatbots-updatee.onrender.com/extract_keys?url=%7Burl%7D@bots_updatee&user_id=%7B7735386939%7D"
                # url = f"https://scammer-keys.vercel.app/api?url={url}&token={cptoken}&auth=@scammer_botxz1"
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
@@ -1589,7 +1589,7 @@ async def text_handler(bot: Client, m: Message):
                 keys_string = " ".join([f"--key {key}" for key in keys])
 
             elif "classplusapp" in url:
-                signed_api = f"https://cpapi-ytas.onrender.com/extract_keys?url={url}@bots_updatee&user_id={7735386939}"
+                signed_api = f"https://cpatbots-updatee.onrender.com/extract_keys?url=%7Burl%7D@bots_updatee&user_id=%7B7735386939%7D"
                 response = requests.get(signed_api, timeout=20)
                 #url = response.text.strip()
                 url = response.json()['url']  
