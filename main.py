@@ -802,7 +802,7 @@ async def start(bot, m: Message):
     user_name = (
         m.from_user.first_name if m.from_user
         else m.sender_chat.title if m.sender_chat
-        else "User"
+        else "Boss"
     )
     sender_id = (
         m.from_user.id if m.from_user
